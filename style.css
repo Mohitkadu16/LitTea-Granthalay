@@ -1,0 +1,323 @@
+*{
+    background-color:  #f4f4f9;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #0a74da;
+    color:white ;
+    flex-wrap:wrap;
+}
+
+.bgcolor{
+    background-color: #0a74da;
+} 
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-logo .Image {
+    max-height: 50px; /* Adjust the size of the logo */
+    margin-right: none; /* Space between the logo and text */
+    padding-right: 10px;
+    background-color: #0a74da;
+}
+
+.nav-logo span {
+    font-size: 24px; 
+    font-weight: bold; 
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 1px;
+    padding: auto;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    margin: 0;
+}
+
+.navbar li {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul i{
+    color: white;
+    background-color: #0a74da;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 3px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 20px;
+}
+
+.navbar i {
+    font-size: 16px; /* Adjust icon size */
+    color: #555; /* Icon color */
+}
+
+.navbar li:hover i {
+    color: #000; /* Change icon color on hover */
+}
+
+/* Home page box 1 */
+
+.main-1{
+    margin: 50px;
+    background-color: #f4f4f9;
+
+}
+
+.main-1 a {
+    font-weight: bold;
+    background-color: #0a74da;
+    color: white;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    padding: 10px 10px;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.main-1 p{
+    background-color: #0a74da;    color: white;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    padding: 10px;
+}
+
+.main-1 h1{
+    background-color: #0a74da;    color: white;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* Grid Layout */
+
+.cathead{
+    background-color: #0a74da;    color: white;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    padding: 10px;
+}
+
+.catalog {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Card Styling */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Book Image */
+.card img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Book Title */
+.card h4 {
+    font-size: 1.2rem;
+    color: #0a74da; /* Blue from the theme */
+    margin: 10px 0 5px;
+}
+
+/* Card Text */
+.card p {
+    margin: 5px 0;
+    color: #666;
+}
+
+/* Button */
+.card button {
+    background-color: #ffc107; /* Yellow from the theme */   
+    color: #333;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.card button:hover {
+    background-color: #0a74da;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #0a74da; /* Blue from globe */
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+footer .column {
+    margin: 0px;
+    background-color: #0a64b5; /* Adjusted lighter blue for footer columns */
+    padding: 15px;
+    padding-top: 0px;
+    border-radius: 5px;
+}
+footer .column h4 {
+    margin-bottom: 10px;
+}
+footer .column ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+}
+footer .column a{
+    padding: 5px;
+    background-color: #0a64b5;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer .column ul li {
+    padding: 5px;
+    background-color: #0a64b5;
+}
+footer .column ul li a {
+    color: white;
+    text-decoration: none;
+}
+footer .column ul li a:hover {
+    text-decoration: underline;
+}
+footer .column a:hover{
+    text-decoration: underline;
+}
+footer .column1{
+    margin: 0px;
+    background-color: #0a64b5; /* Adjusted lighter blue for footer columns */
+    padding: 15px;
+    padding-top: 0px;
+    border-radius: 5px;
+}
+
+footer .column1 i{
+    padding-right: 5px;
+}
+
+.bgcolorf{
+    background-color: #0a64b5; /* Adjusted lighter blue for footer columns */
+} 
+
+/*Contact us page*/
+.section{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contact {
+    max-width: 800px;
+    margin: auto;
+    background-color:#ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.contact h2 {
+    text-align: center;
+    color: #0a74da;
+    margin-bottom: 20px;
+}
+.contact form {
+    display: grid;
+    gap: 20px;
+    width: 100%;
+}
+.contact form label {
+    font-weight: bold;
+    /*color: #333;*/
+}
+.contact form input,
+.contact form textarea,
+.contact form button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.contact form input:focus,
+.contact form textarea:focus {
+    outline: none;
+    border-color: #0a74da;
+}
+.contact form button {
+    background-color: #0a74da;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.contact form button:hover {
+    background-color: #ffc107;
+    color: #0a74da;
+}
+
+.bgcolorc{
+    background-color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #0a74da;
+    color: white;
+    text-align: center;
+    padding: 20px 40px;
+    margin-top: 40px;
+}
+footer a {
+    color: #ffc107;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
