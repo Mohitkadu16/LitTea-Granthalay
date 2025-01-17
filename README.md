@@ -1,13 +1,12 @@
 ## Global Library Website
 
 ## Overview
-This is a simple and responsive online library website that provides users with access to a digital book catalog, membership details, and a contact section. The website is built using HTML, CSS, and JavaScript.
+This is a simple and responsive online library website that provides users with access to a digital book catalog, and a contact section. The website is built using HTML, CSS, and JavaScript.
 
 ## Features
 - **Homepage** with a welcoming hero section
 - **Catalog** displaying available books with download options
 - **About Section** providing library details
-- **Membership Page** for user registration
 - **Contact Page** with a form for inquiries
 - **Responsive Design** for mobile and desktop compatibility
 
