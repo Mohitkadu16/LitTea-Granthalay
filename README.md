@@ -14,12 +14,12 @@ This is a simple and responsive online library website that provides users with 
 ## Technologies Used
 - HTML5
 - CSS3
-- JavaScript (for interactivity, if applicable)
+- JavaScript ( Applying that later )
 
 ## Installation & Usage
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/online-library.git
+   git clone https://github.com/Mohitkadu16/MK-Global-Library
    ```
 2. Navigate to the project folder:
    ```bash
