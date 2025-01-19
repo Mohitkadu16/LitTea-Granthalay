@@ -22,20 +22,18 @@ This is a simple and responsive online library website that provides users with 
    ```
 2. Navigate to the project folder:
    ```bash
-   cd online-library
+   cd global-library
    ```
 3. Open `index.html` in your browser to view the site.
 
 ## File Structure
 ```
-/online-library
+/global-library
 │── index.html        # Main homepage
 │── catalog.html      # Book catalog page
 │── about.html        # About the library
 │── contact.html      # Contact form
 │── styles.css        # Main stylesheet
-│── script.js         # JavaScript (if applicable)
-│── assets/           # Images and other assets
 ```
 
 ## Contribution
