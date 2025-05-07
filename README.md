@@ -1,7 +1,7 @@
 # ☕📚 LitTeaGranthalay
 
 ## Overview
-**LitTeaGranthalay** is a cozy and vibrant online library space where stories steep like chai! This responsive digital library blends modern vibes with Indian roots, offering readers a refreshing way to explore books, connect, and enjoy the reading experience — anywhere, anytime.
+**LitTeaGranthalay** **(लिट-टी-ग्रंथालय)** is a Gen Z-friendly digital library that blends the love for literature **("Lit")** with cozy tea-time reading vibes **("Chai/Tea")** in a modern **"Granthalay"** (library in Hindi).
 
 ## Features
 - 🌟 **Homepage** with a warm and welcoming hero section
