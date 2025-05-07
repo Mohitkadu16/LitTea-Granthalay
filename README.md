@@ -1,4 +1,4 @@
-## Global Library Website
+## LitTeaGranthalay
 
 ## Overview
 This is a simple and responsive online library website that provides users with access to a digital book catalog, and a contact section. The website is built using HTML, CSS, and JavaScript.
